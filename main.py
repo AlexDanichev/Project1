@@ -7,7 +7,7 @@ for x in our_range:
         x=x+1;
         continue
 ###################
-print(our_list)//
+#print(our_list)//
 numbers = range (100)
 our_list = list()
 for n in numbers:
@@ -27,7 +27,7 @@ countries_dict= {"Ukraine":"Kiev","Poland":"Warsaw", "Russia":"Moscow", "Canada"
 countries_list= ["USA", "Mexica", "Australia", "Germany" , "United Kingdom"]
 for c in countries_list:
     if c in countries_dict:
-        print{countries_dict[c]}
+        print ({countries_dict[c]})
 
 
 #print(countries_dict.__getitem__("Ukraine"))
